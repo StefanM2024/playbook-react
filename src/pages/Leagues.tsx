@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getLeagues } from "../api/leagues";
-import type { League } from "../api/leagues";
+import type { League } from "../api/types";
 import { Link } from "react-router-dom";
 
 export default function Leagues() {
