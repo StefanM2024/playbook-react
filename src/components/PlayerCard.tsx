@@ -1,4 +1,5 @@
 import React from "react";
+import "flag-icons/css/flag-icons.min.css";
 
 type StatsDto = {
   pace: number;
@@ -115,8 +116,8 @@ const PlayerCard: React.FC<Props> = ({
       <div
         style={{
           position: "absolute",
-          left: "8%",
-          top: "8%",
+          left: "14%",
+          top: "20%",
           color: "white",
           fontSize: "clamp(28px, 9vw, 44px)",
           ...valueStyle,
@@ -129,8 +130,8 @@ const PlayerCard: React.FC<Props> = ({
       <div
         style={{
           position: "absolute",
-          left: "8%",
-          top: "18%",
+          left: "15%",
+          top: "31%",
           color: "white",
           fontSize: "clamp(14px, 4vw, 22px)",
           ...labelStyle,
@@ -143,8 +144,8 @@ const PlayerCard: React.FC<Props> = ({
       <div
         style={{
           position: "absolute",
-          left: "8%",
-          top: "26%",
+          left: "15%",
+          top: "38%",
           display: "flex",
           alignItems: "center",
           gap: 6,
@@ -163,11 +164,11 @@ const PlayerCard: React.FC<Props> = ({
         style={{
           position: "absolute",
           left: "50%",
-          top: "33%",
+          top: "37%",
           transform: "translate(-50%, -50%)",
-          width: "40%",
+          width: "45%",
           aspectRatio: "1 / 1",
-          borderRadius: "9999px",
+          borderRadius: "20px",
           overflow: "hidden",
           boxShadow: "0 4px 10px rgba(0,0,0,.35)",
           background:
@@ -196,7 +197,7 @@ const PlayerCard: React.FC<Props> = ({
         style={{
           position: "absolute",
           left: "50%",
-          top: "66%",
+          top: "55%",
           transform: "translateX(-50%)",
           color: "white",
           fontSize: "clamp(16px, 5vw, 26px)",
@@ -214,14 +215,14 @@ const PlayerCard: React.FC<Props> = ({
       <div
         style={{
           position: "absolute",
-          left: "10%",
+          left: "22%",
           right: "10%",
-          bottom: "8%",
+          bottom: "14%",
           color: "white",
           display: "grid",
           gridTemplateColumns: "1fr 1fr",
           rowGap: "6px",
-          columnGap: "12px",
+          columnGap: "15px",
           fontSize: "clamp(12px, 3.8vw, 18px)",
           fontWeight: 700,
           textShadow: "0 1px 2px rgba(0,0,0,.6)",
